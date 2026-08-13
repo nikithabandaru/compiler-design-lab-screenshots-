@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("Simple Target Code Generation\n\n");
+
+    printf("MOV R1, A\n");
+    printf("ADD R1, B\n");
+    printf("MOV C, R1\n");
+
+    return 0;
+}

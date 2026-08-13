@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("Given Grammar\n\n");
+
+    printf("S -> (L) | a\n");
+    printf("L -> L,S | S\n\n");
+
+    printf("Grammar after eliminating Left Recursion\n\n");
+
+    printf("S -> (L) | a\n");
+    printf("L -> SL'\n");
+    printf("L' -> ,SL' | Epsilon\n");
+
+    return 0;
+}
